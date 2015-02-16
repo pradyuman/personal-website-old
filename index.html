@@ -1,71 +1,169 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<title>Pradyuman Vig</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradyuman Vig</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/github-activity-0.1.0.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/dist/octicons/octions.min.css">
 
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100803138); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100803138ns.gif" /></p></noscript>
 
-<style>
-		body {
-			font-family:Calibri,Verdana, sans-serif;
-		}
-		
-		#box {
-			height:100px;
-			width:100px;
-			background-color:purple;
-			display:none;
-			position:relative;
-		}
-		
-		.bold {
-			font-weight:bold;
-		}
-		
-		#space {
-			height:400px;
-		}
-		
-</style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
 <body>
-    <h1>Future home of something quite cool.</h1>
-	<p>This website is under construction. But fear not! Here is some information till then.</p>
-	<p>I am <strong>Pradyuman Vig</strong> and am currently a Purdue University Computer Engineering student. 
-	I love to code and go to hackathons and recently attended Wildacks 2014 at Northwestern University. <br />
-	I will be an intern with Hewlett-Packard starting May 2015 (and will continue to work with HP at a campus office during the school year). <br />
-	</p>
-	<h2>My recent projects</h2>
-	<p><strong>I created two hacks at Wildhacks 2014: </strong><br /><br />
-		1. The first hack (which won the Microsoft Azure prize at the competition) was a way to send contact information by shaking hands (using Pebble smartwatches and Android). This hack can also be modified to send payment information by venmo, etc using different gestures (its something that can be done with the way we have coded this hack but it wasn't implemented at the hackathon due to the time constraint). <br />
-		For more information, click on the following links: 
-		<a href="http://challengepost.com/software/shaked"><strong>ChallengePost</strong></a>
-		<a href="https://github.com/drewski1992/Shake2Share"><strong>Github</strong></a> <br /><br />
-		2. The second hack was a way to calculate if a stock price was going to go up or down the following morning using social media and stock history. It displays the three stocks most likely to go up the next day (from the database of stocks given by the Yahoo Finance API). We used the APIs and technology from Yahoo Finance, IBM Bluemix, Paypal, MailJet, and dunnhumby for this hack. <br />
-		For more information, click on the following links: 
-		<a href="http://challengepost.com/software/pyse"><strong>ChallengePost</strong></a>
-		<a href="https://github.com/NiharS/StockAnalyzer"><strong>Github</strong></a> <br /><br />
-	</p>
-	  
-	<p><strong>Construction will end soon so come back later for a much more visually appealing and content rich website!</strong></p>
-	<p>
-	<strong>Till then, you can check your reaction time!</strong> <br />
-	<em>Click on the boxes and circles as quickly as you can (make sure to scroll down)!</em>
-	</p>
-	
-	<p class="bold"><span id="output">You have not attempted yet.</span></p>
-	
-	<div id="box"></div>
-	
-	<script type="text/javascript" src="scripts.js"></script>
-	
-	<div id="space"></div>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <!-- <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Pradyuman Vig" /> -->
+            <div class="profile-content pull-left">
+                <h1 class="name">Pradyuman Vig</h1>
+                <h2 class="desc">Purdue Computer Engineering Student</h2>
+                <ul class="social list-inline">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
+        </div><!--//container-->
+    </header><!--//header-->
 
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            I am <strong>Pradyuman Vig</strong> and am currently a Purdue University Computer Engineering student.
+                            I love to code and go to hackathons and recently attended Wildacks 2014 at Northwestern University. <br />
+                            I will be an intern with Hewlett-Packard starting May 2015 (and will continue to work with HP at a campus office during the school year).
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">
+
+                            <div class="item featured text-center">
+
+                                <div class="desc text-left">
+                                    <p><strong>I created two hacks at Wildhacks 2014: </strong><br /><br />
+                                		1. The first hack (which won the Microsoft Azure prize at the competition) was a way to send contact information by shaking hands (using Pebble smartwatches and Android). This hack can also be modified to send payment information by venmo, etc using different gestures (its something that can be done with the way we have coded this hack but it wasn't implemented at the hackathon due to the time constraint). <br />
+                                		For more information, click on the following links:
+                                		<a href="http://challengepost.com/software/shaked"><strong>ChallengePost</strong></a> |
+                                		<a href="https://github.com/drewski1992/Shake2Share"><strong>Github</strong></a> <br /><br />
+                                		2. The second hack was a way to calculate if a stock price was going to go up or down the following morning using social media and stock history. It displays the three stocks most likely to go up the next day (from the database of stocks given by the Yahoo Finance API). We used the APIs and technology from Yahoo Finance, IBM Bluemix, Paypal, MailJet, and dunnhumby for this hack. <br />
+                                		For more information, click on the following links:
+                                		<a href="http://challengepost.com/software/pyse"><strong>ChallengePost</strong></a> |
+                                		<a href="https://github.com/NiharS/StockAnalyzer"><strong>Github</strong></a> <br /><br />
+                                	</p>
+                                </div><!--//desc-->
+
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
+                        <div id="ghfeed" class="ghfeed">
+                        </div><!--//ghfeed-->
+
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>West Lafayette, IN</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">pvig@purdue.edu</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://scyphi.github.io</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//aside-->
+
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BS Computer Engineering</h3>
+                                <h4 class="university">Purdue University - West Lafayette <span class="year">(Fall 2014 - Present)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Texas Academy of Mathematics and Science</h3>
+                                <h4 class="university">University of North Texas <span class="year">(Fall 2012 - Spring 2014)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Hindi:</strong></span>
+                                    <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+
+            </div><!--//secondary-->
+        </div><!--//row-->
+    </div><!--//masonry-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/mustache/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/dist/github-activity-0.1.0.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
