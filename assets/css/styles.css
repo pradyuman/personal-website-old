@@ -537,3 +537,7 @@ iframe {
     width: 1360px;
   }
 }
+
+#codeview {
+    width:100%;
+}
